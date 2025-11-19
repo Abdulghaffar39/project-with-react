@@ -1,0 +1,47 @@
+.container_2 {
+
+    height: 120px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    white-space: nowrap;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+
+    display: block;
+    position: relative;
+    background: white;
+}
+
+.container_2 .track {
+
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    height: 100%;
+    --speed: 16s;
+    animation: scroll var(--speed) linear infinite;
+    white-space: nowrap;
+}
+
+.container_2 .track img {
+
+    width: 120px;
+    height: auto;
+    display: block;
+    flex: 0 0 auto;
+}
+
+.container_2:hover .track {
+
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

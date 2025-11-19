@@ -1,0 +1,113 @@
+
+.App-header {
+
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App-header .App-parent_1 .App-logo {
+  width: 100px;
+  pointer-events: none;
+}
+
+.App-header .App-parent_2 {
+
+  display: flex;
+  gap: 25px;
+}
+
+.App-header .App-parent_2 ul {
+
+  list-style: none;
+
+  display: flex;
+  gap: 20px;
+}
+
+
+.App-header .App-parent_2 li{
+
+  font-size: 14px;
+  color: #68696e;
+}
+
+.App-header .App-parent_2 li a{
+
+  font-size: 14px;
+  color: #68696e;
+  text-decoration: none;
+}
+
+.App-header .App-parent_2 a:hover {
+
+  color: #232323;
+}
+
+.App-header .App-parent_3 {
+
+  display: flex;
+  gap: 25px;
+}
+
+.App-header .App-parent_3 {
+
+  display: flex;
+  gap: 5px;
+}
+
+.App-header .App-parent_3 .App-login {
+
+  border: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #686d7b;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.App-header .App-parent_3 .App-login:hover {
+
+  color: #505050;
+  background-color: rgb(239, 238, 238);
+}
+
+.App-header .App-parent_3 .App-get {
+
+  border: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #513deb;
+}
+
+.App-header .App-parent_3 .App-get:hover {
+
+  background-color: #968bed;
+}
+
+.App-header .App-parent_4 {
+
+  display: none;
+}
+
+.App-header .App-parent_4 .App-menu {
+
+  width: 30px;
+}
+
+.App-header .App-parent_5 {
+
+  display: none;
+}
+
+.App-header .App-parent_5 .App-cut {
+
+  width: 30px;
+}
