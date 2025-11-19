@@ -1,3 +1,7 @@
+* {
+  /* border: 1px solid black; */
+}
+
 .App {
   text-align: center;
 }
@@ -176,6 +180,108 @@ main .container_1 .parent_1 .child_1 .teams_button {
   background-color: #fff9;
   box-shadow: 0 2px 2px #0f0a1f0a;
 }
+
+main .container_1 .parent_1 .child_2 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+main .container_1 .parent_1 .child_2 .grand_child_1 {
+
+  display: flex;
+  justify-content: center;
+}
+
+main .container_1 .parent_1 .child_2 .grand_child_1 .people {
+
+  width: 100px;
+}
+
+/* main .container_1 .parent_1 .child_2 .grand_child_2 {
+
+  display: flex;
+  justify-content: center;
+} */
+
+main .container_1 .parent_1 .child_2 .grand_child_2 p {
+
+  width: 100%;
+  font-size: 14px;
+}
+
+main .container_1 .parent_1 .child_2 .grand_child_3 {
+
+  height: 20px;
+  border: 1px solid #05060f1a;
+
+}
+
+main .container_1 .parent_1 .child_2 .grand_child_4 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+main .container_1 .parent_1 .child_2 .grand_child_4 p {
+
+  font-size: 14px;
+}
+
+main .container_2 {
+
+  height: 120px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  white-space: nowrap;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+
+  display: block;
+  position: relative;
+  background: white;
+}
+
+main .container_2 .track {
+
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  height: 100%;
+  --speed: 16s;
+  animation: scroll var(--speed) linear infinite;
+  white-space: nowrap;
+}
+
+main .container_2 .track img {
+
+  width: 120px;
+  height: auto;
+  display: block;
+  flex: 0 0 auto;
+}
+
+main .container_2:hover .track {
+  
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {

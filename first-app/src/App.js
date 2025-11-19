@@ -2,6 +2,19 @@ import logo from './logo.svg';
 import menu from './menu.png';
 import xicon from './x_icon.png';
 import people from './people.webp';
+import star from './star.svg';
+import atlassian from './atlassian.svg';
+import canva from './canva.svg';
+import delo from './delo.svg';
+import dropbox from './dropbox.svg';
+import forrester from './forrester.svg';
+import ibm from './ibm.svg';
+import micro from './micro.svg';
+import paysafe from './paysafe.svg';
+import redbool from './redbool.svg';
+import samsung from './samsung.svg';
+import tik from './tik tok.svg';
+import ubisoft from './ubisoft.svg';
 import './App.css';
 
 
@@ -68,13 +81,33 @@ function App() {
 
               <div className='grand_child_4'>
 
-                <p></p>
-                <img src='' alt='' className='' />
-                <h5></h5>
+                <p>4.7 out of 5</p>
+                <img src={star} alt='starIcon' className='starIcon' />
 
               </div>
 
             </div>
+
+          </div>
+
+        </div>
+
+        <div className='container_2'>
+
+          <div className='track'>
+
+            <img src={atlassian} alt='atlassian' />
+            <img src={canva} alt='canva' />
+            <img src={delo} alt='delo' />
+            <img src={dropbox} alt='dropbox' />
+            <img src={forrester} alt='forrester' />
+            <img src={ibm} alt='ibm' />
+            <img src={micro} alt='micro' />
+            <img src={paysafe} alt='paysafe' />
+            <img src={redbool} alt='redbool' />
+            <img src={samsung} alt='samsung' />
+            <img src={tik} alt='tik' />
+            <img src={ubisoft} alt='ubisoft' />
 
           </div>
 
