@@ -49,18 +49,6 @@
   gap: 10px;
 }
 
-.container_1 .parent_1 .child_1 .get_button {
-
-  width: 130px;
-  height: 45px;
-
-  border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  color: #ffffff;
-  font-weight: 600;
-  background-color: #513deb;
-}
 
 .container_1 .parent_1 .child_1 .teams_button {
 

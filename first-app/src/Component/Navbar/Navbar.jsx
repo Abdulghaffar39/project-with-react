@@ -1,8 +1,10 @@
 import React from 'react';
 import './style.css'
 import logo from './Images/logo.svg';
+import Button from '../Buttons';
 
 export default function Navbar() {
+
 
     return (
 
@@ -29,7 +31,8 @@ export default function Navbar() {
             <div className='App-parent_3'>
 
                 <button className='App-login'>Log In</button>
-                <button className='App-get'>Get started</button>
+                <Button white='Get started'/>
+                <Button blue='Get started'/>
 
             </div>
 
