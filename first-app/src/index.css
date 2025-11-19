@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "inter";
+}
+@font-face {
+  font-family: "inter";
+  src: url(./Inter/static/Inter_18pt-Regular.ttf);
+}
+
