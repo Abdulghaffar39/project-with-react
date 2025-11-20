@@ -3,6 +3,7 @@
 .container_1 {
 
   padding: 100px 0px;
+  padding-top: 150px;
 
   display: flex;
   flex-direction: column;

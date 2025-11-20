@@ -1,0 +1,17 @@
+.Transparent {
+
+  width: 130px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #686d7b;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.Transparent:hover {
+
+  color: #505050;
+  background-color: rgb(239, 238, 238);
+}

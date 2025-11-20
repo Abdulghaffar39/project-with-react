@@ -5,22 +5,20 @@
 
     border: none;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 600;
     background-color: #513deb;
 }
-
-.white {
+.blue:hover {
 
     width: 130px;
     height: 45px;
 
-
     border: none;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 600;
-    background-color: #c9c9cf;
+    background-color: #b1aaea;
 }

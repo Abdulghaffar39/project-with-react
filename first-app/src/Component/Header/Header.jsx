@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css'
 import logo from './Images/logo.svg';
-import Button from '../Buttons';
+import BlueButton from '../Buttons/BlueBtn/index';
+import TransparentBtn from '../Buttons/TransparentBtn/index';
 
-export default function Navbar() {
+export default function Header() {
 
 
     return (
@@ -30,9 +31,8 @@ export default function Navbar() {
 
             <div className='App-parent_3'>
 
-                <button className='App-login'>Log In</button>
-                <Button white='Get started'/>
-                <Button blue='Get started'/>
+                <TransparentBtn Transparent='Log In'/>
+                <BlueButton blue='Get started'/>
 
             </div>
 

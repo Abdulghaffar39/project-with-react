@@ -1,0 +1,18 @@
+.white {
+
+  width: 170px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: black;
+  border: 1px solid gainsboro;
+  font-weight: 600;
+  background-color: white;
+}
+
+.white:hover {
+
+  color: #505050;
+  background-color: rgb(239, 238, 238);
+}

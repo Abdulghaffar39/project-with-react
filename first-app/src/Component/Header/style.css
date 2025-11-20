@@ -1,7 +1,13 @@
+/* *{
 
+  border: 1px solid black;
+} */
 .App-header {
 
+  width: 100%;
   height: 80px;
+  position: fixed;
+  background-color: white;
 
   display: flex;
   flex-direction: row;
@@ -90,24 +96,4 @@
 .App-header .App-parent_3 .App-get:hover {
 
   background-color: #968bed;
-}
-
-.App-header .App-parent_4 {
-
-  display: none;
-}
-
-.App-header .App-parent_4 .App-menu {
-
-  width: 30px;
-}
-
-.App-header .App-parent_5 {
-
-  display: none;
-}
-
-.App-header .App-parent_5 .App-cut {
-
-  width: 30px;
 }

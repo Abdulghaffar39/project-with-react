@@ -1,5 +1,7 @@
-import React from "react";
 import './style.css';
+import React from "react";
+import BlueButton from '../../Buttons/BlueBtn/index';
+import WhiteBtn from '../../Buttons//WhiteBtn/index';
 
 import star from './Images/star.svg';
 import people from './Images/people.webp';
@@ -18,8 +20,8 @@ export default function containerOne() {
 
                 <div className='child_1'>
 
-                    <button className='get_button'>Get Started</button>
-                    <button className='teams_button'>Uxcel for Teams</button>
+                    <BlueButton blue='Get Started' />
+                    <WhiteBtn white='Uscel for Teams' />
 
                 </div>
 
