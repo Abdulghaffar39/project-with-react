@@ -6,6 +6,7 @@ import Education from "./Images/Education.png"
 import book from "./Images/book.png"
 import pen from "./Images/pen.png"
 import setting from "./Images/Setting.png"
+import AI from "./Images/688a1c5fc0201a56653d0108_cover.svg"
 
 export default function ContainerFour() {
 
@@ -58,13 +59,28 @@ export default function ContainerFour() {
 
                 </div>
 
-                <div className="child_2"></div>
+                <div className="child_2">
+
+                    <div className="grand_child_1">
+
+                        <div className="Image">
+                            <img src={AI} alt="AI" />
+                        </div>
+
+                        <div className="text">
+                            <h1>AI Fondamentals for Designer</h1>
+                            <p>Intermediate</p>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
             <div className="parent_2">
 
-                <div></div>
+
 
             </div>
 
