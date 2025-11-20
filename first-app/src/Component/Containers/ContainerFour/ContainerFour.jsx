@@ -6,7 +6,7 @@ import Education from "./Images/Education.png"
 import book from "./Images/book.png"
 import pen from "./Images/pen.png"
 import setting from "./Images/Setting.png"
-import AI from "./Images/688a1c5fc0201a56653d0108_cover.svg"
+import images from "./Images/688a1ed374c28519fb03fedc_cover (4).svg"
 
 export default function ContainerFour() {
 
@@ -64,7 +64,7 @@ export default function ContainerFour() {
                     <div className="grand_child_1">
 
                         <div className="Image">
-                            <img src={AI} alt="AI" />
+                            <img src={images} alt="AI" />
                         </div>
 
                         <div className="text">
