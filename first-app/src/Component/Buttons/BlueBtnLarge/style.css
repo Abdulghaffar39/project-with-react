@@ -1,0 +1,24 @@
+.blueLarge {
+
+    width: 280px;
+    height: 65px;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #513deb;
+}
+.blueLarge:hover {
+
+    width: 280px;
+    height: 65px;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #b1aaea;
+}
