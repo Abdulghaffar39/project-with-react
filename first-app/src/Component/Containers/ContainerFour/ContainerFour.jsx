@@ -6,7 +6,11 @@ import Education from "./Images/Education.png"
 import book from "./Images/book.png"
 import pen from "./Images/pen.png"
 import setting from "./Images/Setting.png"
-import images from "./Images/688a1ed374c28519fb03fedc_cover (4).svg"
+import Ai from "./Images/688a1c5fc0201a56653d0108_cover.svg"
+import design from "./Images/688a1ea14e7a0bf975f3fd0c_cover (3).svg"
+import figma from "./Images/688a1ed374c28519fb03fedc_cover (4).svg"
+import manage from "./Images/688a29e56440ce085593efa7_cover (6).svg"
+import discover from "./Images/688a2a15f5012e3b8e8f6534_cover (7).svg"
 
 export default function ContainerFour() {
 
@@ -64,7 +68,59 @@ export default function ContainerFour() {
                     <div className="grand_child_1">
 
                         <div className="Image">
-                            <img src={images} alt="AI" />
+                            <img src={Ai} alt="AI" />
+                        </div>
+
+                        <div className="text">
+                            <h1>AI Fondamentals for Designer</h1>
+                            <p>Intermediate</p>
+                        </div>
+
+                    </div>
+
+                    <div className="grand_child_1">
+
+                        <div className="Image">
+                            <img src={design} alt="AI" />
+                        </div>
+
+                        <div className="text">
+                            <h1>AI Fondamentals for Designer</h1>
+                            <p>Intermediate</p>
+                        </div>
+
+                    </div>
+
+                    <div className="grand_child_1">
+
+                        <div className="Image">
+                            <img src={figma} alt="AI" />
+                        </div>
+
+                        <div className="text">
+                            <h1>AI Fondamentals for Designer</h1>
+                            <p>Intermediate</p>
+                        </div>
+
+                    </div>
+
+                    <div className="grand_child_1">
+
+                        <div className="Image">
+                            <img src={manage} alt="AI" />
+                        </div>
+
+                        <div className="text">
+                            <h1>AI Fondamentals for Designer</h1>
+                            <p>Intermediate</p>
+                        </div>
+
+                    </div>
+
+                    <div className="grand_child_1">
+
+                        <div className="Image">
+                            <img src={discover} alt="AI" />
                         </div>
 
                         <div className="text">
